@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RoomSimulationActivity">
+
+    <TextView
+        android:id="@+id/timeToTv"
+        android:layout_width="87dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/tvRoomName"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="16dp"
+        android:text="Godzina Do"
+        android:textAlignment="textStart"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/sunTo"
+        android:layout_width="87dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/tvRoomName"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="390dp"
+        android:layout_marginEnd="15dp"
+        android:ems="10"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:text="12:00" />
+
+    <TextView
+        android:id="@+id/sunFrom"
+        android:layout_width="87dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/tvRoomName"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="390dp"
+        android:layout_marginEnd="135dp"
+        android:ems="10"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:text="12:00" />
+
+    <TextView
+        android:id="@+id/satTo"
+        android:layout_width="87dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/tvRoomName"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="335dp"
+        android:layout_marginEnd="15dp"
+        android:ems="10"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:text="12:00" />
+
+    <TextView
+        android:id="@+id/satFrom"
+        android:layout_width="87dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/tvRoomName"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="335dp"
+        android:layout_marginEnd="135dp"
+        android:ems="10"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:text="12:00" />
+
+    <TextView
+        android:id="@+id/frTo"
+        android:layout_width="87dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/tvRoomName"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="280dp"
+        android:layout_marginEnd="15dp"
+        android:ems="10"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:text="12:00" />
+
+    <TextView
+        android:id="@+id/frFrom"
+        android:layout_width="87dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/tvRoomName"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="280dp"
+        android:layout_marginEnd="135dp"
+        android:ems="10"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:text="12:00" />
+
+    <TextView
+        android:id="@+id/thurTo"
+        android:layout_width="87dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/tvRoomName"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="225dp"
+        android:layout_marginEnd="15dp"
+        android:ems="10"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:text="12:00" />
+
+    <TextView
+        android:id="@+id/thurFrom"
+        android:layout_width="87dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/tvRoomName"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="225dp"
+        android:layout_marginEnd="135dp"
+        android:ems="10"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:text="12:00" />
+
+    <TextView
+        android:id="@+id/wenTo"
+        android:layout_width="87dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/tvRoomName"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="170dp"
+        android:layout_marginEnd="15dp"
+        android:ems="10"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:text="12:00" />
+
+    <TextView
+        android:id="@+id/wenFrom"
+        android:layout_width="87dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/tvRoomName"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="170dp"
+        android:layout_marginEnd="135dp"
+        android:ems="10"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:text="12:00" />
+
+    <TextView
+        android:id="@+id/tusTo"
+        android:layout_width="87dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/tvRoomName"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="115dp"
+        android:layout_marginEnd="15dp"
+        android:ems="10"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:text="12:00"/>
+
+    <TextView
+        android:id="@+id/tusFrom"
+        android:layout_width="87dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/tvRoomName"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="115dp"
+        android:layout_marginEnd="135dp"
+        android:ems="10"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:text="12:00" />
+
+    <TextView
+        android:id="@+id/monTo"
+        android:layout_width="87dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/tvRoomName"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="15dp"
+        android:ems="10"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:text="12:00" />
+
+    <Switch
+        android:id="@+id/sSunday"
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/tvRoomName"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="390dp"
+        android:text="Niedziela" />
+
+    <Switch
+        android:id="@+id/sSaturday"
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/tvRoomName"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="335dp"
+        android:text="Sobota" />
+
+    <Switch
+        android:id="@+id/sFriday"
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/tvRoomName"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="280dp"
+        android:text="Piątek" />
+
+    <Switch
+        android:id="@+id/sThursday"
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/tvRoomName"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="225dp"
+        android:text="Czwartek" />
+
+    <Switch
+        android:id="@+id/sWednesday"
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/tvRoomName"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="170dp"
+        android:text="Środa" />
+
+    <Switch
+        android:id="@+id/sTueasday"
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/tvRoomName"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="115dp"
+        android:text="Wtorek" />
+
+    <TextView
+        android:id="@+id/tvRoomName"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:text="ROOM"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="134dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Switch
+        android:id="@+id/sMonday"
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/tvRoomName"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="60dp"
+        android:text="Poniedziałek" />
+
+    <TextView
+        android:id="@+id/monFrom"
+        android:layout_width="87dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/tvRoomName"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="135dp"
+        android:ems="10"
+        android:text="12:00"
+        android:textColor="@android:color/black"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/dayTittle"
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/tvRoomName"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="254dp"
+        android:text="Dzień"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/timeFromTv"
+        android:layout_width="87dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/tvRoomName"
+        android:layout_alignStart="@+id/monFrom"
+        android:layout_marginTop="4dp"
+        android:text="Godzina Od"
+        android:textAlignment="textStart"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
